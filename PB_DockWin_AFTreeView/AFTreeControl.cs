@@ -39,7 +39,7 @@ namespace PB_DockWin_AFTreeView
         // Open or add a display when the node is double-clicked
         private void afTreeView_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            // parse element path to get the name of the elmement
+            // parse element path to get the name of the element
             string[] path = e.Node.FullPath.Split('\\');
             string filePath = String.Format("C:\\Dev Support\\VBA in PB\\{0}.pdi", path[path.Length - 1]);
 
