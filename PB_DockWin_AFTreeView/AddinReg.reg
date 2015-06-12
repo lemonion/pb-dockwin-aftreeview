@@ -1,0 +1,6 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\PISystem\PI - ProcessBook\Addins\PB_DockWin_AFTreeView.Connect]
+"FriendlyName"="PB Docking Window with AFTreeView"
+"Description"="PB Docking Window with AFTreeView to open a PDI file when an element is double-clicked."
+"LoadBehavior"=dword:0000003
